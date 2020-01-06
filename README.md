@@ -9,5 +9,5 @@ $ docker image build -t rpi-alpine-mosquitto .
 
 Run with :
 ```
-$ docker container run -d -p 1883:1883 -d rpi-alpine-mosquitto
+$ docker container run -d -p 1883:1883 rpi-alpine-mosquitto
 ```
